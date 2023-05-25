@@ -18,6 +18,12 @@ To create a new project folder that follows this cookiecutter template run:
 python -m cookiecutter git@github.com:banditkings/ds_cookie.git
 ```
 
+or if using HTTPS auth:
+
+```
+python -m cookiecutter https://github.com/banditkings/ds_cookie.git
+```
+
 ## Project Structure
 
 ```
