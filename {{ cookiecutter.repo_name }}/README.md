@@ -4,16 +4,29 @@ Built using `cookiecutter`
 
 ## Project Structure
 
-```bash
+```
 .
-├── README.md                               # This file
-├── data                                    # Store raw data, features, etc - not committed to git
-├── notebooks                               # 
-├── pyproject.toml                          #
-├── reports                                 # Static out files 
-├── src                                     # Source code folder
-│   └── {{ cookiecutter.package_name }}     # This package
-└── tests                                   # Folder for your test functions
+├── README.md                               <- The top-level README for developers using this project
+│
+├── data                                    <- Store raw data, features, etc - not committed to git
+│
+├── notebooks                               <- Jupyter notebooks. Naming convention is a number (for ordering),
+│                                              the creator's initials, and a short `-` delimited description, e.g.
+│                                              `1.0-jqp-initial-data-exploration`.
+│
+├── pyproject.toml                          <- Poetry dependency and environment file
+│
+├── reports                                 <- Generated analysis as HTML, PDF, LaTeX, etc
+│   └── figures                             <- Generated graphics and figures to be used in reporting
+│   
+└── src                                     <- Source code for this project
+    ├── tests                               <- All tests for this package
+    └── {{ cookiecutter.package_name }}     <- This package
+        ├── data                            <- Scripts to download or generate data
+        ├── features                        <- Scripts to turn raw data into features for modeling
+        ├── models                          <- Scripts to train models and then use trained models to make
+        │                                      predictions
+        └── visualization                   <- Scripts to create exploratory and results oriented visualizations
 ```
 
 ## `poetry` + `pyenv` usage
@@ -57,3 +70,6 @@ Run all tests in the `tests\` folder:
 poetry run pytest
 ```
 
+## Git
+
+See this [gist](https://gist.github.com/mindplace/b4b094157d7a3be6afd2c96370d39fad) for a reminder on the steps to initialize this as a git repo and push to a remote, empty repo.

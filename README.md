@@ -16,3 +16,8 @@ https://cookiecutter.readthedocs.io/en/stable/
 To create a new project folder that follows this cookiecutter template run:  
 
 `cookiecutter git@github.com:banditkings/ds_cookie.git`
+
+## Other project templates
+
+* [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/)
+* [Kedro Starters](https://github.com/kedro-org/kedro-starters)

@@ -1,8 +1,10 @@
 {
+	"Enter in the name of your project: \n", 
 	"project_name": "my_ds_cookeicutter",
     "repo_name": "{{ cookiecutter.project_name.strip().replace(' ', '-').replace('_', '-').lower() }}",
     "package_name": "{{ cookiecutter.project_name.strip().replace(' ', '_').replace('-', '_').lower() }}",	
-	"author": "Firstname Lastname <your.name@email.com>",
+	"author": "Firstname Lastname",
+	"email": "your.email@email.com",
 	"python_version": "3.10.6",
 	"_copy_without_render": [
        		"*.github"
