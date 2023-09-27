@@ -63,4 +63,4 @@ python -m cookiecutter https://github.com/banditkings/ds_cookie.git
 
 * [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/)
 * [Kedro Starters](https://github.com/kedro-org/kedro-starters)
-* [Description of data folder structure](https://towardsdatascience.com/the-importance-of-layered-thinking-in-data-engineering-a09f685edc71
+* [Description of data folder structure](https://towardsdatascience.com/the-importance-of-layered-thinking-in-data-engineering-a09f685edc71)
