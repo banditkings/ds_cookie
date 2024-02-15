@@ -26,8 +26,10 @@ openpyxl = "^3.1.2"
 pre-commit = "^3.6.1"
 sidetable = "^0.9.1"
 
-[tool.poetry.group.extras.dependencies]
+[tool.poetry.group.extras]
 optional = true
+
+[tool.poetry.group.extras.dependencies]
 jupytext = "^1.14.5"    # Convert jupyter notebook to plain text
 plotly = "^5.14.1"
 kaleido = "0.2.1"
