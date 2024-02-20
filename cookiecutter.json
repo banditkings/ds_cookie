@@ -1,10 +1,10 @@
 {
-	"project_name": "my_ds_cookeicutter",
+	"project_name": "my_ds_cookiecutter_project",
     "repo_name": "{{ cookiecutter.project_name.strip().replace(' ', '-').replace('_', '-').lower() }}",
     "package_name": "{{ cookiecutter.project_name.strip().replace(' ', '_').replace('-', '_').lower() }}",	
 	"author": "Firstname Lastname",
 	"email": "your.email@email.com",
-	"python_version": "3.10.6",
+	"python_version": "3.10.12",
 	"_copy_without_render": [
        		"*.github"
    	]
